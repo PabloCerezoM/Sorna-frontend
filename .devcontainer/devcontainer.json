@@ -1,0 +1,10 @@
+// Reference: https://code.visualstudio.com/docs/remote/containers#_devcontainerjson-reference
+{
+  "name": "sorna-frontend",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "npm install .",
+  "extensions": [
+    "devondcarew.bazel-code",
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ],
+}
